@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 
+//test
 #pragma comment(lib, "ntdll")
 
 extern "C" NTSTATUS WINAPI NtQueryInformationProcess(HANDLE ProcessHandle, ULONG ProcessInformationClass, PVOID ProcessInformation, ULONG ProcessInformationLength, PULONG ReturnLength);
